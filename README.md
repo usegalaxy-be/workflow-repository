@@ -9,4 +9,4 @@ In the near future all workflows in this repo should be registered in workflowhu
 
 Some of these workflows are tested regularly in our instance for benchmarking/status purposes, check: https://github.com/usegalaxy-be/workflow-testing
 
-The Galaxy Training Network workflows (GTN) are up to date with release [2020-04-01](https://github.com/galaxyproject/training-material/releases/tag/2020-04-01).
+The Galaxy Training Network workflows (GTN) are up to date with release [2021-02-01](https://github.com/galaxyproject/training-material/releases/tag/2020-04-01).
