@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true",
   "annotation": "Intermine import/export",
   "format-version": "0.1",
-  "name": "Intermine import/export",
+  "name": "Intermine Import/export",
   "steps": {
     "0": {
       "annotation": "",
@@ -81,7 +81,9 @@
       ]
     }
   },
-  "tags": ["galaxy-interface"],
+  "tags": [
+    "galaxy-interface"
+  ],
   "uuid": "6ce8a0ea-f916-47e6-b0ba-f337d947c7ea",
   "version": 1
 }

@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true",
   "annotation": "Analysis of variation within individual COVID-19 samples (Paired End Illumina). Does not use paured",
   "format-version": "0.1",
-  "name": "Simple COVID-19 - PE Variation",
+  "name": "Simple COVID 19 - PE Variation",
   "steps": {
     "0": {
       "annotation": "Contains SARS-CoV-2 reference sequence",

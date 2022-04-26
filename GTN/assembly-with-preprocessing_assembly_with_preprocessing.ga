@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true",
   "annotation": "Assembly with preprocessing",
   "format-version": "0.1",
-  "name": "assembly_with_preprocessing",
+  "name": "Assembly With Preprocessing",
   "steps": {
     "0": {
       "annotation": "",

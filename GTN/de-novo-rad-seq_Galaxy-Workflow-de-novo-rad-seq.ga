@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true",
   "annotation": "RAD-Seq de-novo data analysis",
   "format-version": "0.1",
-  "name": "de novo Rad Seq",
+  "name": "De Novo Rad Seq",
   "steps": {
     "0": {
       "annotation": "",
@@ -628,7 +628,7 @@
           "type": "tabular"
         },
         {
-          "name": "out_fastpĥase",
+          "name": "out_fastp\u0125ase",
           "type": "tabular"
         },
         {
