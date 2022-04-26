@@ -27,7 +27,7 @@ jobs:
       - name: Run updater script
         run: bash var/gtn-updater.sh
       - name: Deleting GTN repository
-        run: rm training-material
+        run: rm -r training-material
       - name: Show differences
         run: "git diff --stat"
       - name: Create Pull Request
