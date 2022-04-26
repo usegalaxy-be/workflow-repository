@@ -13,7 +13,7 @@ do
         then
             for w in $tutdir/workflows/*.ga
             do
-                python3 $PWD/var/gtn-updater.py $PWD $w $topic
+                python3 $PWD/var/gtn-updater.py $PWD $w $topic $tut
             done
         fi
     done

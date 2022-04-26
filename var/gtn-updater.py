@@ -6,6 +6,9 @@ import os
 pwd = sys.argv[1]
 filename = sys.argv[2]
 topic = sys.argv[3]
+tutorial = sys.argv[4]
+
+print(filename)
 
 with open(filename) as json_file:
     data = json.load(json_file)
@@ -25,5 +28,6 @@ with open(filename) as json_file:
                 newname.append(word.capitalize())
     
     data['name'] = ' '.join(newname)
-with open(f"{pwd}/GTN/{os.path.basename(filename)}", 'w') as f:
+
+with open(f"{pwd}/GTN/{tutorial}_{os.path.basename(filename)}", 'w') as f:
     json.dump(data, f, sort_keys=False, indent=2)
