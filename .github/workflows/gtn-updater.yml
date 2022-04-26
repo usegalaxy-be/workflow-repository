@@ -23,6 +23,10 @@ jobs:
           repository: galaxyproject/training-material
           path: /
           ref: main
+      - name: Deleting previous GTN workflows
+        run: rm GTN
+      - name: Create new repository for GTN workflows
+        run: mkdir GTN
       - name: Run updater script
         run: bash var/gtn-updater.sh
       - name: Deleting GTN repository
