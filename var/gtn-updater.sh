@@ -1,8 +1,9 @@
 #!/bin/bash
-for topicdir in /training-material/topics/*
+echo $PWD
+for topicdir in $PWD/training-material/topics/*
 do
     topic=$(basename $topicdir)
-    echo "TOPIC: ${topic^^} "
+    echo "TOPIC: ${topic^^} - ${topicdir}"
     echo "----------------------------------------------" 
     for tutdir in $topicdir/tutorials/*
     do
@@ -12,7 +13,7 @@ do
         then
             for w in $tutdir/workflows/*.ga
             do
-                python3 ./gtn-updater.py $w $topic
+                python3 $PWD/var/gtn-updater.py $PWD $w $topic
             done
         fi
     done

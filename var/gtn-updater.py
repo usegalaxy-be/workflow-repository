@@ -1,9 +1,11 @@
 import sys
 import json
 import re
+import os
 
-filename = sys.argv[1]
-topic = sys.argv[2]
+pwd = sys.argv[1]
+filename = sys.argv[2]
+topic = sys.argv[3]
 
 with open(filename) as json_file:
     data = json.load(json_file)
@@ -23,5 +25,5 @@ with open(filename) as json_file:
                 newname.append(word.capitalize())
     
     data['name'] = ' '.join(newname)
-with open(f"../GTN/{filename}", 'w') as f:
+with open(f"{pwd}/GTN/{os.path.basename(filename)}", 'w') as f:
     json.dump(data, f, sort_keys=False, indent=2)
