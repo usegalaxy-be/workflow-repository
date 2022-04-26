@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: galaxyproject/training-material
-          path: .
+          path: training-material
           ref: main
       - name: Deleting previous GTN workflows
         run: rm GTN
