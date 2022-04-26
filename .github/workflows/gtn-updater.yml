@@ -1,0 +1,51 @@
+name: Python Package using Conda
+
+on:
+  schedule:
+    - cron: "0 2 * * THU"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [3.8]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3.10
+        uses: actions/setup-python@v3
+        with:
+          python-version: 3.10
+      - name: Clone GTN repository
+        uses: actions/checkout@v2
+        with:
+          repository: galaxyproject/training-material
+          path: GTN-temp
+          ref: main
+      - name: Run script
+        run: python var/gtn-updater.py
+      - name: Deleting GTN repository
+        run: rm GTN-temp
+      - name: Show differences
+        run: "git diff --stat"
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Update GTN workflows
+          title: "Automatic updating of the GTN workflows"
+          body: |
+            This PR is automatically generated based on changes in the [Galaxy Training Network](https://github.com/galaxyproject/training-material) workflows.
+
+            Please verify if these changes are valid.
+          labels: |
+            automatic PR
+          reviewers: ieguinoa
+          branch: gtn-update
+          base: master
+
+      - name: Check output
+        run: |
+          echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
