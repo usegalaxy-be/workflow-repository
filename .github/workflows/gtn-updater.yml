@@ -13,10 +13,10 @@ jobs:
         python-version: [3.8]
     steps:
       - name: Clone GTN repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: galaxyproject/training-material
-          path: /
+          path: .
           ref: main
       - name: Deleting previous GTN workflows
         run: rm GTN
