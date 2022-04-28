@@ -1,13 +1,13 @@
 {
   "a_galaxy_workflow": "true",
   "annotation": "Clustering in Machine Learning",
-  "tags":[
+  "tags": [
     "statistics",
     "clustering",
     "ml"
   ],
   "format-version": "0.1",
-  "name": "Clustering in Machine Learning",
+  "name": "Clustering In Machine Learning",
   "steps": {
     "0": {
       "annotation": "",

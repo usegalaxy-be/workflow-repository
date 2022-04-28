@@ -2,7 +2,7 @@
   "a_galaxy_workflow": "true",
   "annotation": "workflow-editor",
   "format-version": "0.1",
-  "name": "Tutorial workflow",
+  "name": "Tutorial Workflow",
   "steps": {
     "0": {
       "annotation": "",

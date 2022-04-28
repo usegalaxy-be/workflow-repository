@@ -109,7 +109,10 @@
       "type": "tool",
       "uuid": "3a3ec769-355d-488a-984b-78462a794ef9",
       "workflow_outputs": [
-        {"output_name": "output", "label": "filter1"}
+        {
+          "output_name": "output",
+          "label": "filter1"
+        }
       ]
     },
     "3": {
@@ -149,7 +152,10 @@
       "type": "tool",
       "uuid": "df2f009c-d3e5-4ccc-bf0f-10b8e44947da",
       "workflow_outputs": [
-        {"output_name": "output", "label": "filter2"}
+        {
+          "output_name": "output",
+          "label": "filter2"
+        }
       ]
     }
   },

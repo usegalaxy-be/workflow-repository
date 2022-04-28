@@ -112,11 +112,11 @@
         }
       ],
       "workflow_outputs": [
-          {
-              "label": "outfile_predict",
-              "output_name": "outfile_predict",
-              "uuid": "03e30beb-fc01-4184-8649-057c13bb626a"
-          }
+        {
+          "label": "outfile_predict",
+          "output_name": "outfile_predict",
+          "uuid": "03e30beb-fc01-4184-8649-057c13bb626a"
+        }
       ],
       "input_connections": {
         "selected_tasks|infile_data": {

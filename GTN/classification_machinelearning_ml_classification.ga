@@ -1,14 +1,14 @@
 {
   "a_galaxy_workflow": "true",
   "annotation": "Classification in Machine Learning",
-  "tags":[
-      "statistics",
-      "classification",
-      "ml",
-      "cheminformatics"
-   ],
+  "tags": [
+    "statistics",
+    "classification",
+    "ml",
+    "cheminformatics"
+  ],
   "format-version": "0.1",
-  "name": "ml_classification",
+  "name": "Ml Classification",
   "steps": {
     "0": {
       "annotation": "",
