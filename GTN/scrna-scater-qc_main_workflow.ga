@@ -282,7 +282,8 @@
     }
   },
   "tags": [
-    "transcriptomics"
+    "transcriptomics",
+    "single-cell"
   ],
   "uuid": "9e227801-1847-4a52-9b3e-4d6f0fb0fb34",
   "version": 0

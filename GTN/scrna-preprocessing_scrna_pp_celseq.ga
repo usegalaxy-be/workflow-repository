@@ -1,7 +1,8 @@
 {
   "uuid": "471df293-caf4-4b42-b9a2-05a8c12644de",
   "tags": [
-    "transcriptomics"
+    "transcriptomics",
+    "single-cell"
   ],
   "format-version": "0.1",
   "name": "CelSeq2: Single Batch (mm10)",
