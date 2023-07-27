@@ -1,11 +1,8 @@
 {
   "a_galaxy_workflow": "true",
-  "annotation": "Generating a cell matrix using Alevin",
+  "annotation": "Updated August 2022",
   "format-version": "0.1",
-  "name": "Pre Processing With Alevin - Part 2",
-  "tags": [
-    "transcriptomics"
-  ],
+  "name": "CS2 Combining Datasets After Pre Processing",
   "steps": {
     "0": {
       "annotation": "",
@@ -16,34 +13,22 @@
       "inputs": [
         {
           "description": "",
-          "name": "N707"
+          "name": "N701"
         }
       ],
-      "label": "N707",
+      "label": "N701",
       "name": "Input dataset",
       "outputs": [],
       "position": {
-        "bottom": 88.18333435058594,
-        "height": 61.80000305175781,
-        "left": -16.51666259765625,
-        "right": 183.48333740234375,
-        "top": 26.383331298828125,
-        "width": 200,
-        "x": -16.51666259765625,
-        "y": 26.383331298828125
+        "left": 12.9765625,
+        "top": 159.9921875
       },
       "tool_id": null,
-      "tool_state": "{\"optional\": false}",
+      "tool_state": "{\"optional\": false, \"tag\": null}",
       "tool_version": null,
       "type": "data_input",
-      "uuid": "2df2fdf4-6f92-4d47-b39f-b6ec3b97d129",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "output",
-          "uuid": "884f9c21-e4c7-4cdd-8113-cad1e3820578"
-        }
-      ]
+      "uuid": "eb152d1a-d97e-45aa-a4f3-0a70dea28117",
+      "workflow_outputs": []
     },
     "1": {
       "annotation": "",
@@ -54,34 +39,22 @@
       "inputs": [
         {
           "description": "",
-          "name": "N706"
+          "name": "N702"
         }
       ],
-      "label": "N706",
+      "label": "N702",
       "name": "Input dataset",
       "outputs": [],
       "position": {
-        "bottom": 168.18333435058594,
-        "height": 61.80000305175781,
-        "left": -20.51666259765625,
-        "right": 179.48333740234375,
-        "top": 106.38333129882812,
-        "width": 200,
-        "x": -20.51666259765625,
-        "y": 106.38333129882812
+        "left": 8.9921875,
+        "top": 241.0
       },
       "tool_id": null,
-      "tool_state": "{\"optional\": false}",
+      "tool_state": "{\"optional\": false, \"tag\": \"\"}",
       "tool_version": null,
       "type": "data_input",
-      "uuid": "3be11100-8532-402b-aea8-ab20f0c9567e",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "output",
-          "uuid": "6c4ef3b9-b7cb-4f61-b7ce-a25fb14c1575"
-        }
-      ]
+      "uuid": "2e6ef554-d55a-4426-ba8a-4a06e635d6c2",
+      "workflow_outputs": []
     },
     "2": {
       "annotation": "",
@@ -92,34 +65,22 @@
       "inputs": [
         {
           "description": "",
-          "name": "N705"
+          "name": "N703"
         }
       ],
-      "label": "N705",
+      "label": "N703",
       "name": "Input dataset",
       "outputs": [],
       "position": {
-        "bottom": 251.18333435058594,
-        "height": 61.80000305175781,
-        "left": -29.51666259765625,
-        "right": 170.48333740234375,
-        "top": 189.38333129882812,
-        "width": 200,
-        "x": -29.51666259765625,
-        "y": 189.38333129882812
+        "left": 0.0,
+        "top": 322.9921875
       },
       "tool_id": null,
-      "tool_state": "{\"optional\": false}",
+      "tool_state": "{\"optional\": false, \"tag\": \"\"}",
       "tool_version": null,
       "type": "data_input",
-      "uuid": "ed9a078a-34ee-4cb2-808a-31397d7b604b",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "output",
-          "uuid": "b5938855-5a67-45d4-8a60-4b6eadcc381d"
-        }
-      ]
+      "uuid": "f3f6187a-cbe4-4439-9cc5-2fa8eef80e14",
+      "workflow_outputs": []
     },
     "3": {
       "annotation": "",
@@ -137,27 +98,15 @@
       "name": "Input dataset",
       "outputs": [],
       "position": {
-        "bottom": 361.18333435058594,
-        "height": 61.80000305175781,
-        "left": -24.51666259765625,
-        "right": 175.48333740234375,
-        "top": 299.3833312988281,
-        "width": 200,
-        "x": -24.51666259765625,
-        "y": 299.3833312988281
+        "left": 4.984375,
+        "top": 434.0
       },
       "tool_id": null,
-      "tool_state": "{\"optional\": false}",
+      "tool_state": "{\"optional\": false, \"tag\": null}",
       "tool_version": null,
       "type": "data_input",
-      "uuid": "a1db2c0f-c9e9-413c-ad93-ae5b705c4580",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "output",
-          "uuid": "5feef728-bc51-46b8-a04d-07f57689e242"
-        }
-      ]
+      "uuid": "b3b24abf-297e-47e6-b201-3cb02e09cbec",
+      "workflow_outputs": []
     },
     "4": {
       "annotation": "",
@@ -168,34 +117,22 @@
       "inputs": [
         {
           "description": "",
-          "name": "N703"
+          "name": "N705"
         }
       ],
-      "label": "N703",
+      "label": "N705",
       "name": "Input dataset",
       "outputs": [],
       "position": {
-        "bottom": 466.18333435058594,
-        "height": 61.80000305175781,
-        "left": -22.51666259765625,
-        "right": 177.48333740234375,
-        "top": 404.3833312988281,
-        "width": 200,
-        "x": -22.51666259765625,
-        "y": 404.3833312988281
+        "left": 6.0,
+        "top": 538.9921875
       },
       "tool_id": null,
-      "tool_state": "{\"optional\": false}",
+      "tool_state": "{\"optional\": false, \"tag\": null}",
       "tool_version": null,
       "type": "data_input",
-      "uuid": "d373913b-cfa8-4715-9dde-4a36149f4f55",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "output",
-          "uuid": "3531bc03-4e7c-4a04-b6a7-6e3fcd9f2f16"
-        }
-      ]
+      "uuid": "3b4e2b0b-efac-4ef0-bc6c-7d643b590a3c",
+      "workflow_outputs": []
     },
     "5": {
       "annotation": "",
@@ -206,34 +143,22 @@
       "inputs": [
         {
           "description": "",
-          "name": "N702"
+          "name": "N706"
         }
       ],
-      "label": "N702",
+      "label": "N706",
       "name": "Input dataset",
       "outputs": [],
       "position": {
-        "bottom": 567.1833343505859,
-        "height": 61.80000305175781,
-        "left": -22.51666259765625,
-        "right": 177.48333740234375,
-        "top": 505.3833312988281,
-        "width": 200,
-        "x": -22.51666259765625,
-        "y": 505.3833312988281
+        "left": 7.0,
+        "top": 640.0
       },
       "tool_id": null,
-      "tool_state": "{\"optional\": false}",
+      "tool_state": "{\"optional\": false, \"tag\": \"\"}",
       "tool_version": null,
       "type": "data_input",
-      "uuid": "ed69e756-4ef5-4c9c-8f33-d418fe72a265",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "output",
-          "uuid": "68d3d331-21cf-4ef8-924a-607717cfa6b6"
-        }
-      ]
+      "uuid": "ea7d9b86-39d9-4a3e-be66-0fbeed21cf65",
+      "workflow_outputs": []
     },
     "6": {
       "annotation": "",
@@ -244,34 +169,22 @@
       "inputs": [
         {
           "description": "",
-          "name": "N701"
+          "name": "N707"
         }
       ],
-      "label": "N701",
+      "label": "N707",
       "name": "Input dataset",
       "outputs": [],
       "position": {
-        "bottom": 668.1833038330078,
-        "height": 61.80000305175781,
-        "left": -22.51666259765625,
-        "right": 177.48333740234375,
-        "top": 606.38330078125,
-        "width": 200,
-        "x": -22.51666259765625,
-        "y": 606.38330078125
+        "left": 7.0,
+        "top": 741.0
       },
       "tool_id": null,
-      "tool_state": "{\"optional\": false}",
+      "tool_state": "{\"optional\": false, \"tag\": \"\"}",
       "tool_version": null,
       "type": "data_input",
-      "uuid": "381bdb22-1162-4b44-b9f0-13d95170470f",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "output",
-          "uuid": "ce469199-ed42-4de5-a2da-a5794c27f689"
-        }
-      ]
+      "uuid": "dfec8d54-adc0-4a2c-bc9b-f9bad36e1022",
+      "workflow_outputs": []
     },
     "7": {
       "annotation": "",
@@ -301,45 +214,10 @@
         }
       ],
       "position": {
-        "bottom": 79.94999694824219,
-        "height": 234.59999084472656,
-        "left": 855.5166625976562,
-        "right": 1055.5166625976562,
-        "top": -154.64999389648438,
-        "width": 200,
-        "x": 855.5166625976562,
-        "y": -154.64999389648438
+        "left": 378.015625,
+        "top": 884.5
       },
-      "post_job_actions": {
-        "TagDatasetActionbarcode_tsv": {
-          "action_arguments": {
-            "tags": "#SCXA-pre-processed"
-          },
-          "action_type": "TagDatasetAction",
-          "output_name": "barcode_tsv"
-        },
-        "TagDatasetActiondesign_tsv": {
-          "action_arguments": {
-            "tags": "#SCXA-pre-processed"
-          },
-          "action_type": "TagDatasetAction",
-          "output_name": "design_tsv"
-        },
-        "TagDatasetActiongenes_tsv": {
-          "action_arguments": {
-            "tags": "#SCXA-pre-processed"
-          },
-          "action_type": "TagDatasetAction",
-          "output_name": "genes_tsv"
-        },
-        "TagDatasetActionmatrix_mtx": {
-          "action_arguments": {
-            "tags": "#SCXA-pre-processed"
-          },
-          "action_type": "TagDatasetAction",
-          "output_name": "matrix_mtx"
-        }
-      },
+      "post_job_actions": {},
       "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/retrieve_scxa/retrieve_scxa/v0.0.2+galaxy2",
       "tool_shed_repository": {
         "changeset_revision": "72b6e1747e37",
@@ -350,38 +228,38 @@
       "tool_state": "{\"accession\": \"E-MTAB-6945\", \"matrix_type\": \"raw\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
       "tool_version": "v0.0.2+galaxy2",
       "type": "tool",
-      "uuid": "57f5723c-7e59-447a-b2eb-181449abe197",
+      "uuid": "f186fe22-7856-45ba-abe0-70ed29248681",
       "workflow_outputs": [
         {
           "label": null,
           "output_name": "design_tsv",
-          "uuid": "19910150-35be-4854-b033-08f96f0476bb"
+          "uuid": "ee9373c9-0a92-49c0-aa95-cff31c41473a"
         },
         {
           "label": null,
           "output_name": "matrix_mtx",
-          "uuid": "e1652c09-73ff-45f9-985c-1358aabc8920"
+          "uuid": "83b7c08f-0361-47c9-9bf1-98a8a64ae2f3"
         },
         {
           "label": null,
           "output_name": "barcode_tsv",
-          "uuid": "437230ad-f73d-4f3a-94e8-7218b5cd9db4"
+          "uuid": "0e1076e3-a226-4c05-8f6d-e4043d51bccb"
         },
         {
           "label": null,
           "output_name": "genes_tsv",
-          "uuid": "7f41d514-012c-4e0c-8f3b-a2e237e6c93e"
+          "uuid": "768bc3e9-d4d3-4f9e-80fd-2c5a711794b4"
         }
       ]
     },
     "8": {
       "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1",
       "errors": null,
       "id": 8,
       "input_connections": {
         "input": {
-          "id": 6,
+          "id": 0,
           "output_name": "output"
         },
         "manipulate|other_adatas": [
@@ -390,11 +268,7 @@
             "output_name": "output"
           },
           {
-            "id": 5,
-            "output_name": "output"
-          },
-          {
-            "id": 4,
+            "id": 2,
             "output_name": "output"
           },
           {
@@ -402,16 +276,29 @@
             "output_name": "output"
           },
           {
-            "id": 2,
+            "id": 4,
             "output_name": "output"
           },
           {
-            "id": 0,
+            "id": 5,
+            "output_name": "output"
+          },
+          {
+            "id": 6,
             "output_name": "output"
           }
         ]
       },
-      "inputs": [],
+      "inputs": [
+        {
+          "description": "runtime parameter for tool Manipulate AnnData",
+          "name": "input"
+        },
+        {
+          "description": "runtime parameter for tool Manipulate AnnData",
+          "name": "manipulate"
+        }
+      ],
       "label": "Concatenating Datasets",
       "name": "Manipulate AnnData",
       "outputs": [
@@ -421,14 +308,8 @@
         }
       ],
       "position": {
-        "bottom": 460.18333435058594,
-        "height": 184.8000030517578,
-        "left": 265.51666259765625,
-        "right": 465.51666259765625,
-        "top": 275.3833312988281,
-        "width": 200,
-        "x": 265.51666259765625,
-        "y": 275.3833312988281
+        "left": 295.0234375,
+        "top": 410.0
       },
       "post_job_actions": {
         "RenameDatasetActionanndata": {
@@ -446,28 +327,28 @@
           "output_name": "anndata"
         }
       },
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0",
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1",
       "tool_shed_repository": {
-        "changeset_revision": "8db95f488f0f",
+        "changeset_revision": "3d748954434b",
         "name": "anndata_manipulate",
         "owner": "iuc",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
-      "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"manipulate\": {\"function\": \"concatenate\", \"__current_case__\": 0, \"other_adatas\": {\"__class__\": \"ConnectedValue\"}, \"join\": \"inner\", \"batch_key\": \"batch\", \"index_unique\": \"-\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "0.7.5+galaxy0",
+      "tool_state": "{\"input\": {\"__class__\": \"RuntimeValue\"}, \"manipulate\": {\"function\": \"concatenate\", \"__current_case__\": 0, \"other_adatas\": {\"__class__\": \"RuntimeValue\"}, \"join\": \"inner\", \"batch_key\": \"batch\", \"index_unique\": \"-\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_version": "0.7.5+galaxy1",
       "type": "tool",
-      "uuid": "5b58025b-d16d-4140-bddf-cf7ec6b3d8ba",
+      "uuid": "955b36c9-db0f-4b35-9ef2-39ea5ec31026",
       "workflow_outputs": [
         {
           "label": "Combined AnnData",
           "output_name": "anndata",
-          "uuid": "22b999fc-5f5d-4ccf-b268-aa3de5017215"
+          "uuid": "a138b78c-0bab-476f-86ac-046e71f1ffd2"
         }
       ]
     },
     "9": {
       "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.6.0+galaxy0",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.8.1+galaxy0",
       "errors": null,
       "id": 9,
       "input_connections": {
@@ -488,7 +369,12 @@
           "output_name": "matrix_mtx"
         }
       },
-      "inputs": [],
+      "inputs": [
+        {
+          "description": "runtime parameter for tool Scanpy Read10x",
+          "name": "gene_meta"
+        }
+      ],
       "label": null,
       "name": "Scanpy Read10x",
       "outputs": [
@@ -498,90 +384,34 @@
         }
       ],
       "position": {
-        "bottom": 176.58334350585938,
-        "height": 337.20001220703125,
-        "left": 1323.5166015625,
-        "right": 1523.5166015625,
-        "top": -160.61666870117188,
-        "width": 200,
-        "x": 1323.5166015625,
-        "y": -160.61666870117188
+        "left": 698.0078125,
+        "top": 875.5
       },
       "post_job_actions": {},
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.6.0+galaxy0",
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/scanpy_read_10x/scanpy_read_10x/1.8.1+galaxy0",
       "tool_shed_repository": {
-        "changeset_revision": "c8391a25dee3",
+        "changeset_revision": "d253d69ff19f",
         "name": "scanpy_read_10x",
         "owner": "ebi-gxa",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
-      "tool_state": "{\"__input_ext\": \"input\", \"barcodes\": {\"__class__\": \"ConnectedValue\"}, \"cell_meta\": {\"__class__\": \"ConnectedValue\"}, \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"gene_meta\": null, \"genes\": {\"__class__\": \"ConnectedValue\"}, \"matrix\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"var_names\": \"gene_ids\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "1.6.0+galaxy0",
+      "tool_state": "{\"barcodes\": {\"__class__\": \"ConnectedValue\"}, \"cell_meta\": {\"__class__\": \"ConnectedValue\"}, \"gene_meta\": {\"__class__\": \"RuntimeValue\"}, \"genes\": {\"__class__\": \"ConnectedValue\"}, \"matrix\": {\"__class__\": \"ConnectedValue\"}, \"output_format\": \"anndata_h5ad\", \"var_names\": \"gene_ids\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_version": "1.8.1+galaxy0",
       "type": "tool",
-      "uuid": "91004da6-3b00-4253-97e5-622a75e222b9",
+      "uuid": "954e6dbf-0e72-464c-a95f-c70efb26b251",
       "workflow_outputs": [
         {
-          "label": null,
+          "label": "Scanpy Read10x on input dataset(s): anndata_h5ad AnnData",
           "output_name": "output_h5ad",
-          "uuid": "07b96df3-9a32-4877-bb91-2c7241d3c198"
+          "uuid": "cb74756e-46b8-428d-a642-0ac981ab7b96"
         }
       ]
     },
     "10": {
       "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1",
       "errors": null,
       "id": 10,
-      "input_connections": {
-        "input": {
-          "id": 8,
-          "output_name": "anndata"
-        }
-      },
-      "inputs": [],
-      "label": null,
-      "name": "Inspect AnnData",
-      "outputs": [
-        {
-          "name": "obs",
-          "type": "tabular"
-        }
-      ],
-      "position": {
-        "bottom": 278.18333435058594,
-        "height": 174.8000030517578,
-        "left": 543.5166625976562,
-        "right": 743.5166625976562,
-        "top": 103.38333129882812,
-        "width": 200,
-        "x": 543.5166625976562,
-        "y": 103.38333129882812
-      },
-      "post_job_actions": {},
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0",
-      "tool_shed_repository": {
-        "changeset_revision": "383dcb0500f9",
-        "name": "anndata_inspect",
-        "owner": "iuc",
-        "tool_shed": "toolshed.g2.bx.psu.edu"
-      },
-      "tool_state": "{\"__input_ext\": \"h5ad\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"inspect\": {\"info\": \"obs\", \"__current_case__\": 3}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "0.7.5+galaxy0",
-      "type": "tool",
-      "uuid": "91f9765a-14f7-44eb-ac24-23e80a5436ae",
-      "workflow_outputs": [
-        {
-          "label": null,
-          "output_name": "obs",
-          "uuid": "bede7a7b-3e7f-4ad6-adb5-267cb26e8b4b"
-        }
-      ]
-    },
-    "11": {
-      "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0",
-      "errors": null,
-      "id": 11,
       "input_connections": {
         "input": {
           "id": 8,
@@ -598,38 +428,76 @@
         }
       ],
       "position": {
-        "bottom": 60.56666564941406,
-        "height": 195.1999969482422,
-        "left": 543.5166625976562,
-        "right": 743.5166625976562,
-        "top": -134.63333129882812,
-        "width": 200,
-        "x": 543.5166625976562,
-        "y": -134.63333129882812
+        "left": 573.046875,
+        "top": 0.0
       },
       "post_job_actions": {},
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0",
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1",
       "tool_shed_repository": {
-        "changeset_revision": "383dcb0500f9",
+        "changeset_revision": "ee98d611afc6",
         "name": "anndata_inspect",
         "owner": "iuc",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
-      "tool_state": "{\"__input_ext\": \"h5ad\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"inspect\": {\"info\": \"var\", \"__current_case__\": 4}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "0.7.5+galaxy0",
+      "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"inspect\": {\"info\": \"var\", \"__current_case__\": 4}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_version": "0.7.5+galaxy1",
       "type": "tool",
-      "uuid": "48878ccd-59c8-4b0b-a397-56b79be7815f",
+      "uuid": "12dda41f-f702-47f1-8366-324e9cd2eb21",
       "workflow_outputs": [
         {
           "label": null,
           "output_name": "var",
-          "uuid": "9293c341-27e9-4517-8d1d-7986a40329d4"
+          "uuid": "7ea76d94-d507-4e27-908b-8f2130896ae6"
+        }
+      ]
+    },
+    "11": {
+      "annotation": "",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1",
+      "errors": null,
+      "id": 11,
+      "input_connections": {
+        "input": {
+          "id": 8,
+          "output_name": "anndata"
+        }
+      },
+      "inputs": [],
+      "label": null,
+      "name": "Inspect AnnData",
+      "outputs": [
+        {
+          "name": "obs",
+          "type": "tabular"
+        }
+      ],
+      "position": {
+        "left": 572.03125,
+        "top": 237.9765625
+      },
+      "post_job_actions": {},
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1",
+      "tool_shed_repository": {
+        "changeset_revision": "ee98d611afc6",
+        "name": "anndata_inspect",
+        "owner": "iuc",
+        "tool_shed": "toolshed.g2.bx.psu.edu"
+      },
+      "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"inspect\": {\"info\": \"obs\", \"__current_case__\": 3}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_version": "0.7.5+galaxy1",
+      "type": "tool",
+      "uuid": "befaea14-efce-4f64-a04b-e9eb56912ad8",
+      "workflow_outputs": [
+        {
+          "label": null,
+          "output_name": "obs",
+          "uuid": "0689efcc-d088-4979-bda9-c7a3a8367081"
         }
       ]
     },
     "12": {
       "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1",
       "errors": null,
       "id": 12,
       "input_connections": {
@@ -648,32 +516,26 @@
         }
       ],
       "position": {
-        "bottom": 474.76666259765625,
-        "height": 154.39999389648438,
-        "left": 543.5166625976562,
-        "right": 743.5166625976562,
-        "top": 320.3666687011719,
-        "width": 200,
-        "x": 543.5166625976562,
-        "y": 320.3666687011719
+        "left": 573.046875,
+        "top": 454.984375
       },
       "post_job_actions": {},
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy0",
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_inspect/anndata_inspect/0.7.5+galaxy1",
       "tool_shed_repository": {
-        "changeset_revision": "383dcb0500f9",
+        "changeset_revision": "ee98d611afc6",
         "name": "anndata_inspect",
         "owner": "iuc",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
-      "tool_state": "{\"__input_ext\": \"h5ad\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"inspect\": {\"info\": \"general\", \"__current_case__\": 0}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "0.7.5+galaxy0",
+      "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"inspect\": {\"info\": \"general\", \"__current_case__\": 0}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_version": "0.7.5+galaxy1",
       "type": "tool",
-      "uuid": "4dc51e64-e99a-407e-9fa1-ff9bbdef31da",
+      "uuid": "7f3779fa-bfd3-4c41-a443-2cdc22708abb",
       "workflow_outputs": [
         {
           "label": null,
           "output_name": "general",
-          "uuid": "3440ddb5-ebef-4387-9193-597c4c96b90f"
+          "uuid": "5163c3b4-d677-4901-8aa6-4ec1328fe877"
         }
       ]
     },
@@ -684,7 +546,7 @@
       "id": 13,
       "input_connections": {
         "infile": {
-          "id": 10,
+          "id": 11,
           "output_name": "obs"
         }
       },
@@ -698,16 +560,18 @@
         }
       ],
       "position": {
-        "bottom": 248.98333740234375,
-        "height": 113.60000610351562,
-        "left": 821.5166625976562,
-        "right": 1021.5166625976562,
-        "top": 135.38333129882812,
-        "width": 200,
-        "x": 821.5166625976562,
-        "y": 135.38333129882812
+        "left": 851.0390625,
+        "top": 270.0
       },
-      "post_job_actions": {},
+      "post_job_actions": {
+        "RenameDatasetActionoutfile": {
+          "action_arguments": {
+            "newname": "Repl"
+          },
+          "action_type": "RenameDatasetAction",
+          "output_name": "outfile"
+        }
+      },
       "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3",
       "tool_shed_repository": {
         "changeset_revision": "ddf54b12c295",
@@ -715,15 +579,15 @@
         "owner": "bgruening",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
-      "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"infile\": {\"__class__\": \"ConnectedValue\"}, \"replacements\": [{\"__index__\": 0, \"column\": \"9\", \"find_pattern\": \"0|1|3|4|5|6\", \"replace_pattern\": \"male\"}, {\"__index__\": 1, \"column\": \"9\", \"find_pattern\": \"2\", \"replace_pattern\": \"female\"}, {\"__index__\": 2, \"column\": \"9\", \"find_pattern\": \"batch\", \"replace_pattern\": \"sex\"}], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_state": "{\"infile\": {\"__class__\": \"ConnectedValue\"}, \"replacements\": [{\"__index__\": 0, \"column\": \"8\", \"find_pattern\": \"0|1|3|4|5|6\", \"replace_pattern\": \"male\"}, {\"__index__\": 1, \"column\": \"8\", \"find_pattern\": \"2\", \"replace_pattern\": \"female\"}, {\"__index__\": 2, \"column\": \"8\", \"find_pattern\": \"batch\", \"replace_pattern\": \"sex\"}], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
       "tool_version": "1.1.3",
       "type": "tool",
-      "uuid": "d84447e5-dd87-4809-8df7-775aec03e631",
+      "uuid": "b682d7c5-8cbe-4331-9dc1-2d4a1f1c57f9",
       "workflow_outputs": [
         {
           "label": null,
           "output_name": "outfile",
-          "uuid": "c25d61d8-4c13-4e2f-b6b5-f05927f47724"
+          "uuid": "23de6be3-ee4b-4d79-9b98-6a7713421ee8"
         }
       ]
     },
@@ -734,7 +598,7 @@
       "id": 14,
       "input_connections": {
         "infile": {
-          "id": 10,
+          "id": 11,
           "output_name": "obs"
         }
       },
@@ -748,16 +612,18 @@
         }
       ],
       "position": {
-        "bottom": 402.98333740234375,
-        "height": 113.60000610351562,
-        "left": 821.5166625976562,
-        "right": 1021.5166625976562,
-        "top": 289.3833312988281,
-        "width": 200,
-        "x": 821.5166625976562,
-        "y": 289.3833312988281
+        "left": 851.0390625,
+        "top": 423.9921875
       },
-      "post_job_actions": {},
+      "post_job_actions": {
+        "RenameDatasetActionoutfile": {
+          "action_arguments": {
+            "newname": "Place metadata with genotype"
+          },
+          "action_type": "RenameDatasetAction",
+          "output_name": "outfile"
+        }
+      },
       "tool_id": "toolshed.g2.bx.psu.edu/repos/bgruening/text_processing/tp_replace_in_column/1.1.3",
       "tool_shed_repository": {
         "changeset_revision": "ddf54b12c295",
@@ -765,15 +631,15 @@
         "owner": "bgruening",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
-      "tool_state": "{\"__input_ext\": \"tabular\", \"chromInfo\": \"/opt/galaxy/tool-data/shared/ucsc/chrom/?.len\", \"infile\": {\"__class__\": \"ConnectedValue\"}, \"replacements\": [{\"__index__\": 0, \"column\": \"9\", \"find_pattern\": \"0|3|4|5\", \"replace_pattern\": \"wildtype\"}, {\"__index__\": 1, \"column\": \"9\", \"find_pattern\": \"1|2|6\", \"replace_pattern\": \"knockout\"}, {\"__index__\": 2, \"column\": \"9\", \"find_pattern\": \"batch\", \"replace_pattern\": \"genotype\"}], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_state": "{\"infile\": {\"__class__\": \"ConnectedValue\"}, \"replacements\": [{\"__index__\": 0, \"column\": \"8\", \"find_pattern\": \"0|3|4|5\", \"replace_pattern\": \"wildtype\"}, {\"__index__\": 1, \"column\": \"8\", \"find_pattern\": \"1|2|6\", \"replace_pattern\": \"knockout\"}, {\"__index__\": 2, \"column\": \"8\", \"find_pattern\": \"batch\", \"replace_pattern\": \"genotype\"}], \"__page__\": null, \"__rerun_remap_job_id__\": null}",
       "tool_version": "1.1.3",
       "type": "tool",
-      "uuid": "9f7e5acd-81e7-4801-9877-2fc0dd302c49",
+      "uuid": "7f1e6c7b-6f3f-4980-9e2f-745087c930dc",
       "workflow_outputs": [
         {
           "label": null,
           "output_name": "outfile",
-          "uuid": "e79c1d55-e0e7-44c2-9e20-d023ffd3b7c1"
+          "uuid": "00ef87f5-633d-41bd-a785-f5064d2c3a01"
         }
       ]
     },
@@ -798,14 +664,8 @@
         }
       ],
       "position": {
-        "bottom": 238.5833282470703,
-        "height": 93.19999694824219,
-        "left": 1099.5166015625,
-        "right": 1299.5166015625,
-        "top": 145.38333129882812,
-        "width": 200,
-        "x": 1099.5166015625,
-        "y": 145.38333129882812
+        "left": 1129.03125,
+        "top": 280.0
       },
       "post_job_actions": {
         "RenameDatasetActionout_file1": {
@@ -817,15 +677,15 @@
         }
       },
       "tool_id": "Cut1",
-      "tool_state": "{\"columnList\": \"c9\", \"delimiter\": \"T\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_state": "{\"columnList\": \"c8\", \"delimiter\": \"T\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
       "tool_version": "1.0.2",
       "type": "tool",
-      "uuid": "e1e18e4a-951b-4264-af9e-d251a0c592db",
+      "uuid": "7480dae4-d20a-45b9-9540-50214312d59d",
       "workflow_outputs": [
         {
           "label": "Sex metadata",
           "output_name": "out_file1",
-          "uuid": "438804dc-7d1c-4bfa-91e9-7db495633524"
+          "uuid": "1added7f-58cd-4ad1-ac44-d033c7c7968e"
         }
       ]
     },
@@ -850,14 +710,8 @@
         }
       ],
       "position": {
-        "bottom": 402.98333740234375,
-        "height": 113.60000610351562,
-        "left": 1099.5166015625,
-        "right": 1299.5166015625,
-        "top": 289.3833312988281,
-        "width": 200,
-        "x": 1099.5166015625,
-        "y": 289.3833312988281
+        "left": 1129.03125,
+        "top": 423.9921875
       },
       "post_job_actions": {
         "RenameDatasetActionout_file1": {
@@ -869,15 +723,15 @@
         }
       },
       "tool_id": "Cut1",
-      "tool_state": "{\"columnList\": \"c9\", \"delimiter\": \"T\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_state": "{\"columnList\": \"c8\", \"delimiter\": \"T\", \"input\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
       "tool_version": "1.0.2",
       "type": "tool",
-      "uuid": "680c5712-c261-4524-b7d1-c61d4610d794",
+      "uuid": "a0af9307-752b-4df9-a784-df35d05905e4",
       "workflow_outputs": [
         {
           "label": "Genotype metadata",
           "output_name": "out_file1",
-          "uuid": "c91a2954-a5f0-4433-9bb4-47a7b46bbb77"
+          "uuid": "26e71b3f-663c-4249-8ca0-d3a8f69a437b"
         }
       ]
     },
@@ -906,14 +760,8 @@
         }
       ],
       "position": {
-        "bottom": 390.3666687011719,
-        "height": 144,
-        "left": 1377.5166015625,
-        "right": 1577.5166015625,
-        "top": 246.36666870117188,
-        "width": 200,
-        "x": 1377.5166015625,
-        "y": 246.36666870117188
+        "left": 1407.046875,
+        "top": 380.984375
       },
       "post_job_actions": {
         "RenameDatasetActionout_file1": {
@@ -928,18 +776,18 @@
       "tool_state": "{\"delimiter\": \"T\", \"input1\": {\"__class__\": \"ConnectedValue\"}, \"input2\": {\"__class__\": \"ConnectedValue\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
       "tool_version": "1.0.0",
       "type": "tool",
-      "uuid": "dafcfbd9-0da8-420c-9a99-16d08d14e736",
+      "uuid": "0c5e3854-2d23-4006-993f-74e51802ffe0",
       "workflow_outputs": [
         {
           "label": "Cell metadata",
           "output_name": "out_file1",
-          "uuid": "3f093713-f486-4029-991f-2a0bfbfc19c1"
+          "uuid": "60ff7e7d-004d-4d15-a2fb-876929ef539f"
         }
       ]
     },
     "18": {
       "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1",
       "errors": null,
       "id": 18,
       "input_connections": {
@@ -962,14 +810,8 @@
         }
       ],
       "position": {
-        "bottom": 660.7833404541016,
-        "height": 164.40000915527344,
-        "left": 527.5166625976562,
-        "right": 727.5166625976562,
-        "top": 496.3833312988281,
-        "width": 200,
-        "x": 527.5166625976562,
-        "y": 496.3833312988281
+        "left": 557.03125,
+        "top": 630.9765625
       },
       "post_job_actions": {
         "RenameDatasetActionanndata": {
@@ -980,28 +822,28 @@
           "output_name": "anndata"
         }
       },
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0",
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1",
       "tool_shed_repository": {
-        "changeset_revision": "8db95f488f0f",
+        "changeset_revision": "3d748954434b",
         "name": "anndata_manipulate",
         "owner": "iuc",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
       "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"manipulate\": {\"function\": \"add_annotation\", \"__current_case__\": 6, \"var_obs\": \"obs\", \"new_annot\": {\"__class__\": \"ConnectedValue\"}}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "0.7.5+galaxy0",
+      "tool_version": "0.7.5+galaxy1",
       "type": "tool",
-      "uuid": "328fab11-2c18-436f-94bb-d6a5c17f42cf",
+      "uuid": "a98f7105-545c-4e34-9ad2-9f9d730792b2",
       "workflow_outputs": [
         {
           "label": "AnnData with Cell Metadata",
           "output_name": "anndata",
-          "uuid": "82b56679-97db-4989-ae3e-4f85fb5eea38"
+          "uuid": "fb5f7421-77af-4a3a-8653-2302900c1786"
         }
       ]
     },
     "19": {
       "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1",
       "errors": null,
       "id": 19,
       "input_connections": {
@@ -1020,14 +862,8 @@
         }
       ],
       "position": {
-        "bottom": 623.9833374023438,
-        "height": 113.60000610351562,
-        "left": 765.5166625976562,
-        "right": 965.5166625976562,
-        "top": 510.3833312988281,
-        "width": 200,
-        "x": 765.5166625976562,
-        "y": 510.3833312988281
+        "left": 795.03125,
+        "top": 644.9765625
       },
       "post_job_actions": {
         "RenameDatasetActionanndata": {
@@ -1038,28 +874,28 @@
           "output_name": "anndata"
         }
       },
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy0",
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/anndata_manipulate/anndata_manipulate/0.7.5+galaxy1",
       "tool_shed_repository": {
-        "changeset_revision": "8db95f488f0f",
+        "changeset_revision": "3d748954434b",
         "name": "anndata_manipulate",
         "owner": "iuc",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
       "tool_state": "{\"input\": {\"__class__\": \"ConnectedValue\"}, \"manipulate\": {\"function\": \"rename_categories\", \"__current_case__\": 3, \"key\": \"batch\", \"categories\": \"N701,N702,N703,N704,N705,N706,N707\"}, \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "0.7.5+galaxy0",
+      "tool_version": "0.7.5+galaxy1",
       "type": "tool",
-      "uuid": "8a8bbafb-b493-438c-ac1f-3ec96876f6b5",
+      "uuid": "afebc705-2674-4fba-b04d-50bb6c6cb97f",
       "workflow_outputs": [
         {
           "label": "Batched AnnData",
           "output_name": "anndata",
-          "uuid": "3aba45df-6ba5-4c24-a9f3-908954adfa5c"
+          "uuid": "30140d83-7b5f-48be-8e3b-f85acb8c278b"
         }
       ]
     },
     "20": {
       "annotation": "",
-      "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.6.0+galaxy1",
+      "content_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy0",
       "errors": null,
       "id": 20,
       "input_connections": {
@@ -1078,14 +914,8 @@
         }
       ],
       "position": {
-        "bottom": 660.7833404541016,
-        "height": 154.40000915527344,
-        "left": 1011.5166625976562,
-        "right": 1211.5166625976562,
-        "top": 506.3833312988281,
-        "width": 200,
-        "x": 1011.5166625976562,
-        "y": 506.3833312988281
+        "left": 1041.03125,
+        "top": 641.0
       },
       "post_job_actions": {
         "RenameDatasetActionoutput_h5ad": {
@@ -1096,26 +926,32 @@
           "output_name": "output_h5ad"
         }
       },
-      "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.6.0+galaxy1",
+      "tool_id": "toolshed.g2.bx.psu.edu/repos/ebi-gxa/anndata_ops/anndata_ops/1.8.1+galaxy0",
       "tool_shed_repository": {
-        "changeset_revision": "6aa025ea64d3",
+        "changeset_revision": "890fb06a2893",
         "name": "anndata_ops",
         "owner": "ebi-gxa",
         "tool_shed": "toolshed.g2.bx.psu.edu"
       },
-      "tool_state": "{\"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"gene_flags\": [{\"__index__\": 0, \"startswith\": \"True\", \"flag\": \"mito\"}], \"gene_symbols_field\": \"NA.\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"top_genes\": \"50\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
-      "tool_version": "1.6.0+galaxy1",
+      "tool_state": "{\"copy_adata_to_raw\": \"false\", \"copy_e\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_l\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_o\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_r\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_u\": {\"default\": \"false\", \"__current_case__\": 1}, \"copy_x\": {\"default\": \"false\", \"__current_case__\": 1}, \"gene_flags\": [{\"__index__\": 0, \"startswith\": \"True\", \"flag\": \"mito\"}], \"gene_symbols_field\": \"NA.\", \"input_obj_file\": {\"__class__\": \"ConnectedValue\"}, \"modifications\": [], \"output_format\": \"anndata_h5ad\", \"sanitize_varm\": \"false\", \"top_genes\": \"50\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+      "tool_version": "1.8.1+galaxy0",
       "type": "tool",
-      "uuid": "8ff94635-2b1b-40bd-b47e-4a38c668811c",
+      "uuid": "bb4eae48-1d0e-4825-b2f8-4889251541d1",
       "workflow_outputs": [
         {
           "label": "Annotated AnnData",
           "output_name": "output_h5ad",
-          "uuid": "733f52a3-b9af-4ef2-b8de-10baf2e31e24"
+          "uuid": "a6c9658e-e53d-4489-90d5-4f05af7a4c78"
         }
       ]
     }
   },
-  "uuid": "4d86cb2e-0533-4a81-9d8f-5d4cb361c4d1",
-  "version": 2
+  "tags": [
+    "name:singlecell",
+    "name:transcriptomics",
+    "name:training",
+    "single-cell"
+  ],
+  "uuid": "2f3642b9-4c46-4037-ad44-3d164a84b7f0",
+  "version": 5
 }
